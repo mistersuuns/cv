@@ -17,11 +17,11 @@
     </script>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh1+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="eye.png">
-    <link rel="stylesheet" type="text/css" href="indexCV.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-    <title>cv</title>
+    <title>cv - robert</title>
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -29,7 +29,7 @@
             if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navbar").style.top = "0";
             } else {
-                document.getElementById("navbar").style.top = "-7.5vh";
+                document.getElementById("navbar").style.top = "-11vh";
             }
             prevScrollpos = currentScrollPos;
         }
@@ -39,115 +39,171 @@
 
 <body>
 
-    <div class="bg"></div>
-
     <nav class="navbar navbar-default" id="navbar">
         <div class="container-fluid">
             <ul class="nav">
                 <li class="active"><a href="#home" id="nav" role="navigation">HOME</a></li>
-                <li><a href="#designsTitle" id="nav" role="navigation">SCHOOL</a></li>
-                <li><a href="#wordsTitle" id="nav" role="navigation">WORK</a></li>
-                <li><a href="#skills" id="nav" role="navigation">SKILLS</a></li>
-                <li><a href="#footer" id="nav" role="navigation">PRINT</a></li>
-                <li><a href="#footer" id="nav" role="navigation">CONTACT</a></li>
+                <li><a href="#home" id="nav" role="navigation">SKILLS</a></li>
+                <li><a href="#work" id="nav" role="navigation">WORK</a></li>
+                <li><a href="#print" id="nav" role="navigation">PRINT</a></li>
+                <li><a href="#school" id="nav" role="navigation">SCHOOL</a></li>
+                <li><a href="#volunteer" id="nav" role="navigation">VOLUNTEER</a></li>
+                <li><a href="#contact" id="nav" role="navigation">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="container-fluid"> CV (text)
+    <div class="container-fluid">
 
-        SCHOOL
-        PhD, Government Cornell University 1998-2008
-        BPHE, Physiology University of Toronto 1985-1990
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="home">SKILLS</h1>
+                <div id="line">Front-end web development (html, css, Javascript)</div>
+                <div id="line">Sketchapp, Omnigraffle, Illustrator, Photoshop, Lightroom</div>
+                <div id="line">Fabric, Instabug</div>
+                <div id="line">Systems analysis</div>
+                <div id="line">Research, Publication</div>
+                <div id="line">Certified Scrum Master (Agile Learning Labs)</div>
+                <div id="line">Negotiation, conflict resolution, budgeting, planning, managing to critical time paths
+                </div>
+                <br>
+                <div id="languages">LANGUAGES</div>
+                <div id="line">fluent English</div>
+                <div id="line">elementary French, Japanese, Spanish</div>
+            </div>
+        </div>
+        <br>
 
-        AWARDS
-        Mellon FoundaCon CompleCon Fellowship 2006 Peace Studies/International Grant 2003
-        Russell Sage FoundaCon Graduate Fellowship 2000
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="work">WORK</h1>
 
+                <div id="position">FRONT-END WEB DEVELOPER</div>
+                <div id="place">@ ROBERT 2015-present</div>
+                <div id="line"><a href="https://www.whiterabbitcoffeeco.com" target="_blank" style="color: black; cursor: pointer">whiterabbitcoffeeco.com</a></div>
+                <div id="line"><a href="https://www.mistersuuns.github.io" target="_blank" style="color: black; cursor: pointer">mistersuuns.github.io</a></div>
+                <div id="line"><a href="https://www.totl.coop" target="_blank" style="color: black; cursor:pointer">totl.coop</a></div>
+                <br>
+                <div id="position">PROJECT MANAGER</div>
+                <div id="place">@ TOTL 2015-2019</div>
+                <div id="line">Agile Coach for small international tech startup</div>
+                <div id="line">Scrum Master — daily check-ins, enable offline work and communication, clear blockers,
+                 sprint cycle review and retrospectives</div>
+                <div id="line">Design/UI Advisor - guide app design with UI and Design teams</div>
+                <div id="line">Market/context research</div>
+                <div id="line">Product vision, pitch deck content</div>
+                <div id="line">Beta User Feedback Lead</div>
+                <br>
+                <div id="position">TECHNICAL WRITER, EDITOR</div>
+                <div id="place">@ KEVIN ANDERSON & ASSOC 2014-15</div>
+                <div id="line">Focus: research in medical and social sciences</div>
+                <br>
+                <!--
+                <div id="position">MANAGER & COORDINATOR</div>
+                <div id="place">@ ONTARIO VIPASSANA CENTER 2013-14</div>
+                <div id="line">Trained and supervised staff; Reorganized workflow</div>
+                <div id="line">Improved and automated inventory tracking systems for efficiency</div>
+                <br> -->
+                <div id="position">RESEARCH ASSOCIATE</div>
+                <div id="place">@ INSTITUTE FOR CLINICAL EVALUATIVE SCIENCES (ICES), WOMEN’S COLLEGE HOSPITAL 2010-13
+                </div>
+                <div id="line">Collaborated with scientific team on groundbreaking epidemiology research: grant
+                    application, participant recruitment, dataset creation, chart abstraction, data extraction,
+                    analysis, lit review, publication</div>
+                <div id="line">Coauthor on peer-reviewed publications, and reports to Ministry of Health</div>
+                <br>
+                <div id="position">LIAISON, COORDINATOR, INSTRUCTOR</div>
+                <div id="place">@ CORNELL UNIVERSITY 1998-2006</div>
+                <div id="line">Liaison to former US Ambassador to Poland</div>
+                <div id="line">Coordinated Teaching Assistants for 14 courses in Government, Science & Technology
+                    Studies</div>
+                <div id="line">Planned and led 2 Government courses</div>
+            </div>
+        </div>
+        <br>
 
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="print">PRINT</h1>
 
-        WORK
-        Front-end web developer
-        whiterabbitcoffeeco.com
-        mistersuuns.github.io
+                <div id="line">Kwong JC et al. Vaccine effectiveness against laboratory-confirmed influenza
+                    hospitalizations among
+                    elderly
+                    adults during the 2010-2011 season. Clin Infect Dis 2013 Sep; 57(6):820-7.</div>
+                <div id="line">Turner R. Kant’s Children’s Children: Rawls and Habermas on how to raise kids. Midwest
+                    Political
+                    Science
+                    Association Annual Conference. Chicago, Illinois. April 2013.</div>
+                <div id="line">ICES. The Mental Health of Youth and Children in Ontario: Baseline Scorecard. March 2013.
+                </div>
+                <div id="line">ICES. The Ontario Children and Youth Mental Health and Addictions Strategy Evaluation
+                    Framework (MHASEF).
+                    Report to the Ministry of Health and Long Term Care. October 2012.</div>
+                <div id="line">Turner, R. Conditioned Subjects. Theory & Event Volume 14, Issue 3, 2011.</div>
+                <div id="line">Turner R. Steve Paxton's Interior Techniques. The Drama Review Fall 2010, 54(3): 123-135.
+                </div>
+            </div>
+        </div>
+        <br>
 
-        Project Manager @ Startup (stealth) 2015-present Agile Coach - assist communication and workflow processes for
-        small tech startup
-        (10 employees: 5 Budapest, 4 Bay Area, 1 Toronto)
-        Scrum Master - organize biweekly check-in, facilitate offline work, clear blockers, perform sprint cycle review
-        and retrospectives
-        Design/UI Advisor - guide app design with UI and Design teams Market/context research, Work with CEO to create
-        product vision, create
-        pitch deck content
-        Beta User Feedback Lead - onboard, tech support, gather feedback for
-        beta users, create reports to guide bug fixing, product direction
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="school">SCHOOL</h1>
+                <div>
+                    <div id="position">PHD, GOVERNMENT</div>
+                    <div id="place">@ CORNELL UNIVERSITY 1998-2008</div>
+                    <div id="position">AWARDS</div>
+                    <div id="line">Mellon Foundation Completion Fellowship 2006</div>
+                    <div id="line">Peace Studies/International Grant 2003</div>
+                    <div id="line">Russell Sage Foundation Graduate Fellowship 2000</div>
+                    <br>
+                    <div id="position">BPHE, PHYSIOLOGY</div>
+                    <div id="place">@ UNIVERSITY OF TORONTO 1985-1990</div>
+                </div>
 
-        Technical Writer, Editor @ Kevin Anderson & Assoc. Focus: research in medical and social sciences
-        2014-15
+            </div>
+        </div>
+        <br>
 
-        Manager & Coordinator @Ontario Vipassana Center
-        Trained and supervised staff; Reorganized workflow
-        Improved and automated inventory tracking systems for efficiency
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="volunteer">VOLUNTEER</h1>
 
+                <div id="position">DESK / PROJECT EXCHANGE COMMUNITY ANIMATOR (DECA / PECA)</div>
+                <div id="place">@ CENTER FOR SOCIAL INNOVATION, TORONTO 2016-2017</div>
+                <div id="line">Welcome desk, host (accommodate diverse clientele in all needs)</div>
+                <div id="line">IT support (personal computers and all office equipment)</div>
+                <div id="line">Mentor new DECAs</div>
+                <div id="line">Recycle coordinator (improve waste process)</div>
+                <br>
+                <div id="position">TUTOR</div>
+                <div id="place">@ 826 VALENCIA 2015</div>
+                <div id="line">Helped kids from San Francisco lower income households with homework</div>
+                <div id="place">@ CENTER FOR ADDICTION & MENTAL HEALTH 2010</div>
+                <div id="line">Assisted episodic bipolar students preparing for GED exam</div>
+            </div>
+        </div>
+<br>
 
-        Research Associate @ Institute for Clinical Evaluative Sciences 2010-13 @ Women’s College Hospital
-        Collaborated with scientific team on groundbreaking epidemiology research: grant application, participant
-        recruitment, dataset creation, chart abstraction, data extraction, analysis, lit review, publication,
-        Coauthor on peer-reviewed publications, and reports to Ministry of Health
-
-        Liaison, Coordinator, Instructor @ Cornell University 1998-2006
-        Liaison to former US Ambassador to Poland
-        Coordinated Teaching Assistants for 14 courses in Government, Science & Technology Studies
-        Planned and led 2 Government courses
-
-
-
-        RELEVANT SKILLS
-        Front-end web development
-        Certified Scrum Master (Agile Learning Labs) 2016 Negotiation, conflict resolution, budgeting, planning Managing
-        to critical time paths
-        Trello, Slack, Zoom, Box
-        Tech Support (proficient)
-        Photoshop, Lightroom (proficient)
-        MS Office - all (excellent)
-        macOS (excellent), Windows (proficient) iOS, Android (excellent)
-        Fabric, Instabug (proficient)
-
-        LANGUAGES
-        fluent English; elementary French, Spanish
-
-
-
-        PUBLICATIONS
-        *Kwong JC et al. Vaccine effectiveness against laboratory-confirmed influenza hospitalizations among elderly
-        adults during the 2010-2011 season. Clin Infect Dis 2013 Sep; 57(6):820-7.
-        *ICES. The Mental Health of Youth and Children in Ontario: Baseline Scorecard. March 2013.
-        *ICES. The Ontario Children and Youth Mental Health and Addictions Strategy (MHASEF) – Evaluation Framework.
-        Report to the Ministry of Health and Long Term Care. October 2012.
-        *Turner R. Kant’s Children’s Children: Rawls and Habermas on how to raise kids. Midwest Political Science
-        Association Annual Conference. Chicago, Illinois. April 2013.
-        *Turner, R. Conditioned Subjects. Theory & Event Volume 14, Issue 3, 2011.
-        *Turner R. Steve Paxton's Interior Techniques. The Drama Review Fall 2010, 54(3): 123-135.
-
-
-
-
-        VOLUNTEER
-        Desk/Project Exchange Community Animator @ CSI
-        2016-2017
-        Welcome desk, host (accommodate diverse clientele in all needs)
-        IT support (personal computers and all office equipment)
-        Mentor new DECAs
-        Recycle coordinator (improve waste process)
-
-
-        Tutor
-        @ 826 Valencia 2015
-        Helped kids from San Francisco lower income households with homework
-        @ Center for Addiction & Mental Health
-        Assisted episodic bipolar students preparing for GED exam
-</div>
-
+        <div class="row" id="row">
+            <div class="col" id="col">
+                <h1 id="contact">CONTACT ME</h1>
+                <div id="line"><a href="mailto:mistersuuns@gmail.com" target="_blank" class="gmail" style="color: black">mistersuuns@gmail.com</a></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 
 </html>
