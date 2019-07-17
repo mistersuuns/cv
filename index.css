@@ -5,6 +5,14 @@ body {
     color: black;
 }
 
+.background {
+    background: url("greyROBERT.png");
+    width: 100vw;
+z-index: -1;
+position: absolute:
+top: 0;
+}
+
 .container-fluid {
     width: 100vw;
     padding: 0;
@@ -23,7 +31,9 @@ body {
 }
 
 .navbar {
-    background: white;
+    background: url("10Robert.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
     position: fixed;
     z-index: 1;
     padding-left: 5vw;
