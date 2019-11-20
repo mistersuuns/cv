@@ -23,19 +23,18 @@ body {
 }
 
 .navbar {
+    padding: 0;
     background: url("wideRobert.png");
     background-size: 100vw;
     background-repeat: no-repeat;
     position: fixed;
     z-index: 1;
-    padding-left: 5vw;
 }
 
 .navbar a {
     float: left;
     color: black;
     opacity: 1;
-    font-size: 1.2em;
     font-weight: 100;
     letter-spacing: .17em;
 }
@@ -44,13 +43,15 @@ body {
     transition: .2s ease-in-out;
 }
 
-#nav {
+.nav {
     color: black;
-    padding-right: 2em;
-    padding-top: .9em;
-    padding-bottom: .9em; 
+    padding-left: 5vw;
+    padding-top: 1.2em;
+    padding-bottom: 1.3em; 
 }
-
+#nav {
+    padding-right: 4vw;
+}
 
 #skills {
     margin-top:10vh;
@@ -96,6 +97,20 @@ h1 {
     line-height: 2.5vh;
     padding-bottom: 1vh;
     padding-top: 0;
+}
+
+
+@media (min-width: 951px) {
+    .navbar {
+    font-size: 1.2em;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 426px) {
+    .navbar {
+        font-size: .9em;
+    }
+
 }
 
 @media (max-width: 425px) {
