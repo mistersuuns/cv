@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh1+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="angel.png">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -15,86 +19,64 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh1+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="angel.png">
-    <link rel="stylesheet" type="text/css" href="index.css">
-
     <title>robert - cv</title>
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top = "-11vh";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
-
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default" id="navbar">
-        <div class="container-fluid">
-            <ul class="nav">
-                <li class="active"><a href="#home" id="nav" role="navigation">HOME</a></li>
-                <li><a href="#skills" id="nav" role="navigation">SKILLS</a></li>
-                <li><a href="#work" id="nav" role="navigation">WORK</a></li>
-                <li><a href="#print" id="nav" role="navigation">PRINT</a></li>
-                <li><a href="#school" id="nav" role="navigation">SCHOOL</a></li>
-                <li><a href="#volunteer" id="nav" role="navigation">VOLUNTEER</a></li>
-                <li><a href="#contact" id="nav" role="navigation">CONTACT</a></li>
-            </ul>
-        </div>
+    <nav class="navbar">
+        <ul class="nav" id="ul">
+            <li class="active"><a id="nav" href="#skills" role="navigation">SKILLS</a></li>
+            <li><a id="nav" href="#work" role="navigation">WORK</a></li>
+            <li><a id="nav" href="#print" role="navigation">PRINT</a></li>
+            <li><a id="nav" href="#school" role="navigation">SCHOOL</a></li>
+            <li><a id="nav" href="#volunteer" role="navigation">VOLUNTEER</a></li>
+            <li><a id="nav" href="#contact" role="navigation">CONTACT</a></li>
+        </ul>
     </nav>
 
-    <div class="container-fluid" id="home">
-
-        <div class="row" id="row">
-            <div class="col" id="col">
+    <div class="container-fluid" id="skills">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
                 <h1 id="skills">SKILLS</h1>
                 <div id="line">FRONT-END DEVELOPMENT - web, mobile</div>
                 <div id="line">CODE - html, css, Javascript</div>
                 <div id="line">DESIGN - Sketchapp, Omnigraffle, Illustrator, Photoshop, Lightroom</div>
                 <div id="line">APP DEV - Fabric, Instabug</div>
-                <div id="line">PROJECT MGMT - certified scrum master, planning, systems analysis, negotiation, conflict resolution</div>
+                <div id="line">PROJECT MGMT - certified scrum master, planning, systems analysis, negotiation, conflict
+                    resolution</div>
                 <div id="line">RESEARCH + PUBLICATION - public health, humanities</div>
-
-                <br>
-                <div id="languages">LANGUAGES</div>
-                <div id="line">fluent English</div>
-                <div id="line">elementary French, Japanese, Spanish</div>
             </div>
+            <div class="col-1"></div>
         </div>
-        <br>
+    </div>
 
-        <div class="row" id="row">
-            <div class="col" id="col">
-                <h1 id="work">WORK</h1>
-
+    <div class="container-fluid" id="work">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>WORK</h1>
                 <div id="position">FRONT-END DEVELOPER</div>
                 <div id="place" style="color: grey">@ ROBERT 2015-present</a></div>
-                <div id="line"><a href="https://www.whiterabbitcoffeeco.com" target="_blank" style="color: black; cursor: pointer">whiterabbitcoffeeco.com</a></div>
+                <div id="line"><a href="https://www.whiterabbitcoffeeco.com" target="_blank"
+                        style="color: black; cursor: pointer">whiterabbitcoffeeco.com</a></div>
                 <div id="place"><a style="color: grey">@ TOTL (Berkeley, California) 2015-2019</a></div>
 
                 <br>
                 <div id="position">PROJECT MANAGER</div>
-                <div id="place"><a href="https://totl.coop" target="_blank" style="color:grey">@ TOTL 2015-2019</a></div>
+                <div id="place"><a href="https://totl.coop" target="_blank" style="color:grey">@ TOTL 2015-2019</a>
+                </div>
                 <div id="line">Agile Coach for small international tech startup</div>
                 <div id="line">Scrum Master - daily check-ins, enable offline work and communication, clear blockers,
-                 sprint cycle review and retrospectives</div>
+                    sprint cycle review and retrospectives</div>
                 <div id="line">Design / UI Advisor - guide app design with UI and Design teams</div>
                 <div id="line">Market / context research</div>
                 <div id="line">Product vision, pitch deck content</div>
                 <div id="line">Beta User Feedback Lead</div>
                 <br>
                 <div id="position">TECHNICAL WRITER, EDITOR</div>
-                <div id="place"><a href="https://www.ka-writing.com/" target="_blank" style="color: grey">@ KEVIN ANDERSON & ASSOC 2014-15</a></div>
+                <div id="place"><a href="https://www.ka-writing.com/" target="_blank" style="color: grey">@ KEVIN
+                        ANDERSON & ASSOC 2014-15</a></div>
                 <div id="line">Focus: research in medical and social sciences</div>
                 <br>
                 <!--
@@ -104,7 +86,9 @@
                 <div id="line">Improved and automated inventory tracking systems for efficiency</div>
                 <br> -->
                 <div id="position">RESEARCH ASSOCIATE</div>
-                <div id="place"><a href="https://www.ices.on.ca/" target="_blank" style="color: grey">@ INSTITUTE FOR CLINICAL EVALUATIVE SCIENCES (IC/ES),</a>&nbsp;<a href="" target="_blank" style="color: grey">WOMEN’S COLLEGE HOSPITAL</a>&nbsp;2010-13
+                <div id="place"><a href="https://www.ices.on.ca/" target="_blank" style="color: grey">@ INSTITUTE FOR
+                        CLINICAL EVALUATIVE SCIENCES (IC/ES),</a>&nbsp;<a href="" target="_blank"
+                        style="color: grey">WOMEN’S COLLEGE HOSPITAL</a>&nbsp;2010-13
                 </div>
                 <div id="line">Collaborated with scientific team on groundbreaking epidemiology research: grant
                     application, participant recruitment, dataset creation, chart abstraction, data extraction,
@@ -112,97 +96,107 @@
                 <div id="line">Coauthor on peer-reviewed publications, and reports to Ministry of Health</div>
                 <br>
                 <div id="position">LIAISON, COORDINATOR, INSTRUCTOR</div>
-                <div id="place"><a href="https://www.cornell.edu/" target="_blank" style="color: grey">@ CORNELL UNIVERSITY 1998-2006</a></div>
+                <div id="place"><a href="https://www.cornell.edu/" target="_blank" style="color: grey">@ CORNELL
+                        UNIVERSITY 1998-2006</a></div>
                 <div id="line">Liaison to former US Ambassador to Poland</div>
                 <div id="line">Coordinated Teaching Assistants for 14 courses in Government, Science & Technology
                     Studies</div>
                 <div id="line">Planned and led 2 Government courses</div>
             </div>
+            <div class="col-1"></div>
         </div>
-        <br>
+    </div>
 
-        <div class="row" id="row">
-            <div class="col" id="col">
-                <h1 id="print">PRINT</h1>
-
-                <div id="line"><a href="https://academic.oup.com/cid/article/57/6/820/330306" style="color: black" target="_blank">Kwong JC et al. Vaccine effectiveness against laboratory-confirmed influenza
-                    hospitalizations among
-                    elderly
-                    adults during the 2010-2011 season. Clin Infect Dis 2013 Sep; 57(6):820-7.</a></div>
+    <div class="container-fluid" id="print">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>PRINT</h1>
+                <div id="line"><a href="https://academic.oup.com/cid/article/57/6/820/330306" style="color: black"
+                        target="_blank">Kwong JC et al. Vaccine effectiveness against laboratory-confirmed influenza
+                        hospitalizations among
+                        elderly
+                        adults during the 2010-2011 season. Clin Infect Dis 2013 Sep; 57(6):820-7.</a></div>
                 <div id="line">Turner R. Kant’s Children’s Children: Rawls and Habermas on how to raise kids. Midwest
                     Political
                     Science
                     Association Annual Conference. Chicago, Illinois. April 2013.</div>
-                <div id="line">IC/ES. The Mental Health of Youth and Children in Ontario: Baseline Scorecard. March 2013.
+                <div id="line">IC/ES. The Mental Health of Youth and Children in Ontario: Baseline Scorecard. March
+                    2013.
                 </div>
                 <div id="line">IC/ES. The Ontario Children and Youth Mental Health and Addictions Strategy Evaluation
                     Framework (MHASEF).
                     Report to the Ministry of Health and Long Term Care. October 2012.</div>
-                <div id="line"><a href="https://muse.jhu.edu/article/448983" style="color: black" target="_blank">Turner, R. Conditioned Subjects. Theory & Event Volume 14, Issue 3, 2011.</a></div>
-                <div id="line"><a href="https://muse.jhu.edu/article/390982" style="color: black" target="_blank">Turner R. Steve Paxton's Interior Techniques. The Drama Review Fall 2010, 54(3): 123-135.</a>
+                <div id="line"><a href="https://muse.jhu.edu/article/448983" style="color: black"
+                        target="_blank">Turner, R.
+                        Conditioned Subjects. Theory & Event Volume 14, Issue 3, 2011.</a>
+                </div>
+                <div id="line"><a href="https://muse.jhu.edu/article/390982" style="color: black" target="_blank">Turner
+                        R. Steve Paxton's Interior Techniques. The Drama Review Fall 2010, 54(3): 123-135.</a>
                 </div>
             </div>
+            <div class="col-1"></div>
         </div>
-        <br>
+    </div>
 
-        <div class="row" id="row">
-            <div class="col" id="col">
-                <h1 id="school">SCHOOL</h1>
-                <div>
-                    <div id="position">PHD, GOVERNMENT</div>
-                    <div id="place"><a href="https://government.cornell.edu/graduate" style="color: grey" target="_blank">@ CORNELL UNIVERSITY 1998-2008</a></div>
-                    <div id="position">AWARDS</div>
-                    <div id="line">Mellon Foundation Completion Fellowship 2006</div>
-                    <div id="line">Peace Studies / International Grant 2003</div>
-                    <div id="line">Russell Sage Foundation Graduate Fellowship 2000</div>
-                    <br>
-                    <div id="position">BPHE, PHYSIOLOGY</div>
-                    <div id="place"><a href="https://kpe.utoronto.ca/" style="color: grey" target="_blank">@ UNIVERSITY OF TORONTO 1985-1990</a></div>
-                </div>
-
+    <div class="container-fluid" id="school">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>SCHOOL</h1>
+                <div id="position">PHD, GOVERNMENT</div>
+                <div id="place"><a href="https://government.cornell.edu/graduate" style="color: grey" target="_blank">@
+                        CORNELL UNIVERSITY 1998-2008</a></div>
+                <div id="position">AWARDS</div>
+                <div id="line">Mellon Foundation Completion Fellowship 2006</div>
+                <div id="line">Peace Studies / International Grant 2003</div>
+                <div id="line">Russell Sage Foundation Graduate Fellowship 2000</div>
+                <br>
+                <div id="position">BPHE, PHYSIOLOGY</div>
+                <div id="place"><a href="https://kpe.utoronto.ca/" style="color: grey" target="_blank">@ UNIVERSITY
+                        OF TORONTO 1985-1990</a></div>
             </div>
+            <div class="col-1"></div>
         </div>
-        <br>
+    </div>
 
-        <div class="row" id="row">
-            <div class="col" id="col">
-                <div id="volunteer">VOLUNTEER</div>
-
+    <div class="container-fluid" id="volunteer">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>VOLUNTEER</h1>
                 <div id="position">DESK / PROJECT EXCHANGE COMMUNITY ANIMATOR (DECA / PECA)</div>
-                <div id="place"><a href="https://socialinnovation.org" style="color: grey" target="_blank">@ CENTER FOR SOCIAL INNOVATION, TORONTO 2016-2017</a></div>
+                <div id="place"><a href="https://socialinnovation.org" style="color: grey" target="_blank">@ CENTER FOR
+                        SOCIAL INNOVATION, TORONTO 2016-2017</a></div>
                 <div id="line">Welcome desk, host (accommodate diverse clientele in all needs)</div>
                 <div id="line">IT support (personal computers and all office equipment)</div>
                 <div id="line">Mentor new DECAs</div>
                 <div id="line">Recycle coordinator (improve waste process)</div>
                 <br>
                 <div id="position">TUTOR</div>
-                <div id="place"><a href="https://826valencia.org/" style="color: grey" target="_blank">@ 826 VALENCIA 2015</a></div>
+                <div id="place"><a href="https://826valencia.org/" style="color: grey" target="_blank">@ 826 VALENCIA
+                        2015</a></div>
                 <div id="line">Helped kids from San Francisco lower income households with homework</div>
-                <div id="place"><a href="https://www.camh.ca/" style="color: grey" target="_blank">@ CENTER FOR ADDICTION & MENTAL HEALTH 2010</a></div>
-                <div id="line">Assisted students diagnosed with episodic bipolar disorder preparing for GED (high school equivalency) exam</div>
+                <div id="place"><a href="https://www.camh.ca/" style="color: grey" target="_blank">@ CENTER FOR
+                        ADDICTION & MENTAL HEALTH 2010</a></div>
+                <div id="line">Assisted students diagnosed with episodic bipolar disorder preparing for GED (high school
+                    equivalency) exam</div>
             </div>
-        </div>
-<br>
-
-        <div class="row" id="row">
-            <div class="col" id="col">
-                <h1 id="contact">CONTACT ME</h1>
-                <div id="line"><a href="mailto:rdt1@cornell.edu" target="_blank" class="gmail" style="color: black">rdt1@cornell.edu</a></div>
-            </div>
+            <div class="col -1"></div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <div class="container-fluid" id="contact">
+        <div class="row" id="bottom">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <h1>CONTACT ME</h1>
+                <div id="line"><a href="mailto:rdt1@cornell.edu" target="_blank" class="gmail"
+                        style="color: black">rdt1@cornell.edu</a></div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
 </body>
 
 </html>
