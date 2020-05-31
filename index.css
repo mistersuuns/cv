@@ -83,15 +83,14 @@ h1 {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 
 
-
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
-        padding: 2vh 8.3vw;
+        padding: 2.5vh 8.3vw;
     }
     #ul {
-        padding: 4vh 0;
+        padding: 4.5vh 0;
         width: 100vw;
     }
     #nav {
@@ -153,6 +152,5 @@ h1 {
         font-size: .7em;
     }
 }
-
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
