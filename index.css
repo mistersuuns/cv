@@ -3,7 +3,6 @@
 }
 body {
     font-family: "Gill Sans";
-    border: solid black .01px;
 }
 .container-fluid, .row, .col, .col-1, .col-10 {
     margin: 0; padding: 0;
