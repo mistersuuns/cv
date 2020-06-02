@@ -26,9 +26,11 @@ body {
     justify-content: space-between;
 }
 /* nav */
-
-#skills {
-    padding-top: 15vh;
+#skills, #work, #print, #school, #volunteer, #contact {
+    padding-top: 25vh;
+}
+#work, #print, #school, #volunteer, #contact {
+    padding-top: 20vh;
 }
 #line {
     letter-spacing: .109em;
@@ -40,7 +42,6 @@ h1 {
     color: grey;
     font-weight: 600;
     letter-spacing: .2em;
-    padding-top: 10vh;
 }
 #position {
     letter-spacing: .15em;
@@ -65,7 +66,6 @@ h1 {
     .active {
         padding-left: 1vw;
     }
-    
     .navbar {
         padding: 0 7.5vw;
     }
@@ -124,7 +124,7 @@ h1 {
     .navbar {
         padding: 1vh 8vw;
     }
-        #ul {
+    #ul {
             padding: 3.5vh 0;
             width: 100vw;
     }
