@@ -11,18 +11,16 @@ body {
 .navbar {
     width: 100vw;
     position: fixed;
-    margin: 0;
     z-index: 1;
 }
 .navbar a {
     color: black;
     font-weight: 100;
     letter-spacing: .3vw;
-    padding: 6vh 0;
 }
 #ul {
     background: url("wideRobert.png");
-    background-size: 83vw;
+    background-size: 85vw;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
@@ -30,29 +28,25 @@ body {
 /* nav */
 
 #skills {
-    padding-top: 10vh;
+    padding-top: 15vh;
 }
-
 #line {
     letter-spacing: .109em;
     line-height: 1.1em;
     margin-bottom: 1.25vh;
     border: solid rgb(223, 222, 222) .02px;
 }
-
 h1 {
     color: grey;
     font-weight: 600;
     letter-spacing: .2em;
     padding-top: 10vh;
 }
-
 #position {
     letter-spacing: .15em;
     line-height: 2.8vh;
     padding-bottom: .8vh;
 }
-
 #place {
     color: grey;
     font-size: .85em;
@@ -68,11 +62,15 @@ h1 {
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
+    .active {
+        padding-left: 1vw;
+    }
+    
     .navbar {
-        padding: 2vh 8.5vw;
+        padding: 0 7.5vw;
     }
     #ul {
-        padding: 5.25vh 0;
+        padding: 8.25vh 0;
         width: 100vw;
     }
     #nav {
@@ -87,10 +85,10 @@ h1 {
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
-        padding: 2.5vh 8.5vw;
+        padding: 0 7.5vw;
     }
     #ul {
-        padding: 4.5vh 0;
+        padding: 7.25vh 0;
         width: 100vw;
     }
     #nav {
@@ -105,10 +103,10 @@ h1 {
 /* MED MED MED MED MED MED MED MED MED */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar {
-        padding: 2vh 8.5vw;
+        padding: 0 7.5vw;
     }
     #ul {
-        padding: 3.5vh 0;
+        padding: 6vh 0;
         width: 100vw;
     }
     #nav {
@@ -124,10 +122,10 @@ h1 {
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
-        padding: 1vh 8.5vw;
+        padding: 1vh 8vw;
     }
         #ul {
-            padding: 2vh 0;
+            padding: 3.5vh 0;
             width: 100vw;
     }
     #nav {
@@ -142,10 +140,10 @@ h1 {
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
     .navbar {
-        padding: 2.5vh 8.5vw;
+        padding: 0 7.5vw;
     }
     #ul {
-        padding: 1vh 0;
+        padding: 2.5vh 0;
         width: 100vw;
     }
     #nav {
