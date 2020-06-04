@@ -26,11 +26,8 @@ body {
     justify-content: space-between;
 }
 /* nav */
-#skills, #work, #print, #school, #volunteer, #contact {
-    padding-top: 25vh;
-}
-#work, #print, #school, #volunteer, #contact {
-    padding-top: 20vh;
+#goto {
+        display: block; 
 }
 #line {
     letter-spacing: .109em;
@@ -76,6 +73,15 @@ h1 {
     #nav {
         font-size: 1.3em;
     }
+    #goto {
+        margin-top: 15vh; 
+    }
+    #skills {
+        padding-top: 7vh;
+    }
+    #work, #print, #school, #volunteer, #contact {
+        margin-top: -10vh;
+    }
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -93,6 +99,15 @@ h1 {
     }
     #nav {
         font-size: 1.2em;
+    }
+    #goto {
+        margin-top: 15vh; 
+    }
+    #skills {
+        padding-top: 10vh;
+    }
+    #work, #print, #school, #volunteer, #contact {
+        margin-top: -10vh;
     }
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -112,7 +127,15 @@ h1 {
     #nav {
         font-size: 1.1em;
     }
-
+    #goto {
+        margin-top: 15vh; 
+    }
+    #skills {
+        padding-top: 10vh;
+    }
+    #work, #print, #school, #volunteer, #contact {
+        margin-top: -10vh;
+    }
 }
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
@@ -131,6 +154,15 @@ h1 {
     #nav {
         font-size: 1.1em;
     }
+    #goto {
+        margin-top: 10vh; 
+    }
+    #skills {
+        padding-top: ;
+    }
+    #work, #print, #school, #volunteer, #contact {
+        margin-top: -10vh;
+    }
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 /* SSSSSSSSSSSSSSSSSSSSSSSSSS5SSSSSSSSS */
@@ -148,6 +180,15 @@ h1 {
     }
     #nav {
         font-size: .7em;
+    }
+    #goto {
+        margin-top: 7vh; 
+    }
+    #skills {
+        padding-top: vh;
+    }
+    #work, #print, #school, #volunteer, #contact {
+        margin-top: -10vh;
     }
 }
 /* XS XS XS XS XS XS XS XS XS */
