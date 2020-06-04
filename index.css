@@ -4,7 +4,7 @@
 body {
     font-family: "Gill Sans";
 }
-.container-fluid, .row, .col, .col-1, .col-10 {
+.container-fluid, .row, .col {
     margin: 0; padding: 0;
 }
 /* nav */
@@ -20,7 +20,6 @@ body {
 }
 #ul {
     background: url("wideRobert.png");
-    background-size: 85vw;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
@@ -54,30 +53,25 @@ h1 {
     padding-top: 0;
 }
 #bottom {
-    padding-bottom: 2.5vh;
+    padding-bottom: 25vh;
 }
 
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
 @media (min-width: 1200px) {
-    .active {
-        padding-left: 1vw;
-    }
     .navbar {
-        padding: 0 7.5vw;
+        padding: 0 17.5vw;
     }
     #ul {
         padding: 8.25vh 0;
         width: 100vw;
+        background-size: 67vw;
     }
     #nav {
         font-size: 1.3em;
     }
     #goto {
         margin-top: 15vh; 
-    }
-    #skills {
-        padding-top: 7vh;
     }
     #work, #print, #school, #volunteer, #contact {
         margin-top: -10vh;
@@ -91,20 +85,18 @@ h1 {
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
-        padding: 0 7.5vw;
+        padding: 0 17.75vw;
     }
     #ul {
         padding: 7.25vh 0;
         width: 100vw;
+        background-size: 65vw;
     }
     #nav {
         font-size: 1.2em;
     }
     #goto {
         margin-top: 15vh; 
-    }
-    #skills {
-        padding-top: 10vh;
     }
     #work, #print, #school, #volunteer, #contact {
         margin-top: -10vh;
@@ -118,20 +110,18 @@ h1 {
 /* MED MED MED MED MED MED MED MED MED */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar {
-        padding: 0 7.5vw;
+        padding: 0 18vw;
     }
     #ul {
-        padding: 6vh 0;
+        padding: 4vh 0;
         width: 100vw;
+        background-size: 64vw;
     }
     #nav {
         font-size: 1.1em;
     }
     #goto {
         margin-top: 15vh; 
-    }
-    #skills {
-        padding-top: 10vh;
     }
     #work, #print, #school, #volunteer, #contact {
         margin-top: -10vh;
@@ -145,20 +135,18 @@ h1 {
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
-        padding: 1vh 8vw;
+        padding: 0 2vw;
     }
     #ul {
-            padding: 3.5vh 0;
+            padding: 5.25vh 0;
             width: 100vw;
+            background-size: 97vw;
     }
     #nav {
         font-size: 1.1em;
     }
     #goto {
         margin-top: 10vh; 
-    }
-    #skills {
-        padding-top: ;
     }
     #work, #print, #school, #volunteer, #contact {
         margin-top: -10vh;
@@ -172,11 +160,12 @@ h1 {
 /* XS XS XS XS XS XS XS XS XS */
 @media (max-width: 575px) {
     .navbar {
-        padding: 0 7.5vw;
+        padding: 0 3vw;
     }
     #ul {
-        padding: 2.5vh 0;
+        padding: 2.75vh 0;
         width: 100vw;
+        background-size: 97vw;
     }
     #nav {
         font-size: .7em;
@@ -184,11 +173,8 @@ h1 {
     #goto {
         margin-top: 7vh; 
     }
-    #skills {
-        padding-top: vh;
-    }
     #work, #print, #school, #volunteer, #contact {
-        margin-top: -10vh;
+        margin-top: -9vh;
     }
 }
 /* XS XS XS XS XS XS XS XS XS */
