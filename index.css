@@ -3,6 +3,7 @@
 }*/
 body {
     font-family: "Gill Sans";
+    position: relative;
 }
 .container-fluid, .row, .col {
     margin: 0; padding: 0;
