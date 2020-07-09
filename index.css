@@ -19,8 +19,8 @@ body {
     font-weight: 100;
     letter-spacing: .3vw;
 }
-.navbar-light .nav-link.active {
-    font-weight: 350;
+.navbar-nav .nav-link.active {
+    font-weight: 500;
 }
 
 #ul {
