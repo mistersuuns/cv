@@ -179,6 +179,10 @@ h1 {
     #goto {
         margin-top: 7vh; 
     }
+    #position, #place {
+        line-height: 3.5vh;
+    }
+
     #work, #print, #school, #volunteer, #contact {
         margin-top: -9vh;
     }
