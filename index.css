@@ -15,7 +15,6 @@ body {
     z-index: 1;
 }
 .navbar a {
-    color: black;
     font-weight: 100;
     letter-spacing: .3vw;
 }
@@ -31,6 +30,7 @@ body {
     justify-content: space-between;
 }
 /* nav */
+
 #goto {
         display: block; 
 }
@@ -38,22 +38,22 @@ body {
     letter-spacing: .109em;
     line-height: 1.1em;
     margin-bottom: 1.25vh;
-    border: solid rgb(223, 222, 222) .02px;
 }
 h1 {
-    color: grey;
+    color: rgb(228, 228, 228);
     font-weight: 600;
     letter-spacing: .2em;
 }
 #position {
+    font-size: 1.2em;
     letter-spacing: .15em;
     line-height: 2.8vh;
     padding-bottom: .8vh;
 }
 #place {
-    color: grey;
-    font-size: .85em;
-    letter-spacing: .08em;
+    color: rgb(151, 151, 151);
+    font-size: 1em;
+    letter-spacing: .15em;
     line-height: 2.5vh;
     padding-bottom: 1vh;
     padding-top: 0;
