@@ -76,6 +76,9 @@ h1 {
     #nav {
         font-size: 1.3em;
     }
+    #skill {
+        padding-top: 10vh;
+    }
     #goto {
         margin-top: 15vh; 
     }
@@ -100,6 +103,9 @@ h1 {
     }
     #nav {
         font-size: 1.2em;
+    }
+    #skill {
+        padding-top: 10vh;
     }
     #goto {
         margin-top: 15vh; 
@@ -126,6 +132,9 @@ h1 {
     #nav {
         font-size: 1.1em;
     }
+    #skill {
+        padding-top: 2.5vh;
+    }
     #goto {
         margin-top: 15vh; 
     }
@@ -151,6 +160,9 @@ h1 {
     #nav {
         font-size: 1.1em;
     }
+    #skill {
+        padding-top: 5vh;
+    }
     #goto {
         margin-top: 10vh; 
     }
@@ -175,6 +187,9 @@ h1 {
     }
     #nav {
         font-size: .7em;
+    }
+    #skill {
+        padding-top: 3.5vh;
     }
     #goto {
         margin-top: 7vh; 
