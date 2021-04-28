@@ -22,6 +22,12 @@ body {
     font-weight: 500;
     color: rgb(68, 68, 68) !important;
 }
+.scrollspy {
+    overflow: scroll;
+    scroll-margin: 0;
+    scroll-padding: 0;
+    scroll-snap-type: y mandatory;
+}
 
 #ul {
     background: url("wideROBERT.webp");
